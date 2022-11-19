@@ -1,0 +1,14 @@
+.footer-content {
+    margin-top: 65px;
+    color: #800080;
+    position: relative;
+    left: -33rem;
+}
+
+@media only screen and (max-width: 1380px) {
+
+    .footer-content {
+        position: relative;
+        left: 9px;
+    }
+}

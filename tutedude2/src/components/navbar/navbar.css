@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    margin: 1rem;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.r-nav {
+    position: relative;
+    left: 35rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-list>li {
+    list-style: none;
+
+}
+
+.hide {
+    opacity: 0.5;
+}
+
+.prof {
+    position: relative;
+    top: -0.75rem;
+}
+
+
+@media only screen and (max-width: 1328px) {
+
+    .main {
+        display: flex;
+        position: relative;
+    }
+
+    .hide {
+        opacity: 0;
+    }
+
+    .prof {
+        background-color: #800080;
+        border-radius: 15px;
+        position: relative;
+        left: -44rem;
+        padding: 23px 47px 7px 50px;
+        color: white;
+        width: 100px;
+        padding-right: 77px;
+        display: flex;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,115 @@
+.mid-head {
+    position: relative;
+    left: -30rem;
+    color: #800080;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8.5rem;
+}
+
+.cont-1 {
+    padding: 2px 13px;
+    display: block;
+    width: 103vw;
+    height: 35vh;
+    background-image: linear-gradient(285deg, orange, #800080);
+    border-radius: 11px;
+}
+
+.name {
+    display: flex;
+    gap: 6rem;
+}
+
+.skill-1 {
+    display: flex;
+    gap: 28px;
+    position: relative;
+    top: -42px;
+}
+
+.skill-1>h4 {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px;
+    font-weight: 100;
+}
+
+.skill-2 {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    top: -90px;
+}
+
+.skill-2>h4 {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px;
+    font-weight: 100;
+}
+
+.skill-2>h4>:nth-child(3) {
+    padding: 0px 8px;
+}
+
+.ref-amt {
+    top: -7rem;
+    position: relative;
+    left: -8rem;
+}
+
+.box-2 {
+    margin-left: 3rem;
+}
+
+.box-3 {
+    margin-left: 3rem;
+    padding-right: 15px;
+}
+
+
+@media only screen and (max-width: 1380px) {
+    .mid-head {
+        position: relative;
+        left: 1.5rem;
+        color: #800080;
+        font-size: larger;
+    }
+
+    .mid-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-1 {
+        position: relative;
+        left: 1.5rem;
+        transform: scale(1.15);
+        margin-top: 1rem;
+        width: 80px;
+    }
+
+    .box-2 {
+        margin-top: 4rem;
+        transform: scale(1.15);
+    }
+
+    .box-3 {
+        transform: scale(1.15);
+        margin-top: 5rem;
+    }
+
+    .ref-amt {
+        position: relative;
+    }
+
+    .cont-1 {
+        width: 109vw;
+        height: 21vh;
+    }
+}
